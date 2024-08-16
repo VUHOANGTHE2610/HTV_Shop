@@ -1,0 +1,15 @@
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\bin\Debug\net8.0\SV21T1020178.DataLayers.deps.json
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\bin\Debug\net8.0\SV21T1020178.DataLayers.dll
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\bin\Debug\net8.0\SV21T1020178.DataLayers.pdb
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\obj\Debug\net8.0\SV21T1020178.DataLayers.csproj.AssemblyReference.cache
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\obj\Debug\net8.0\SV21T1020178.DataLayers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\obj\Debug\net8.0\SV21T1020178.DataLayers.AssemblyInfoInputs.cache
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\obj\Debug\net8.0\SV21T1020178.DataLayers.AssemblyInfo.cs
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\obj\Debug\net8.0\SV21T1020178.DataLayers.csproj.CoreCompileInputs.cache
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\obj\Debug\net8.0\SV21T1020178.DataLayers.dll
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\obj\Debug\net8.0\refint\SV21T1020178.DataLayers.dll
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\obj\Debug\net8.0\SV21T1020178.DataLayers.pdb
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\obj\Debug\net8.0\ref\SV21T1020178.DataLayers.dll
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\bin\Debug\net8.0\SV21T1020178.DomainModels.dll
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\bin\Debug\net8.0\SV21T1020178.DomainModels.pdb
+D:\Sales Management\SV21T1020178\SV21T1020178.DataLayers\obj\Debug\net8.0\SV21T102.2B3E02F0.Up2Date

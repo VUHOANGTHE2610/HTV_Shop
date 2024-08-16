@@ -1,0 +1,11 @@
+D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\bin\Debug\net8.0\SV21T1020178.DomainModels.deps.json
+D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\bin\Debug\net8.0\SV21T1020178.DomainModels.dll
+D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\bin\Debug\net8.0\SV21T1020178.DomainModels.pdb
+D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\SV21T1020178.DomainModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\SV21T1020178.DomainModels.AssemblyInfoInputs.cache
+D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\SV21T1020178.DomainModels.AssemblyInfo.cs
+D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\SV21T1020178.DomainModels.csproj.CoreCompileInputs.cache
+D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\SV21T1020178.DomainModels.dll
+D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\refint\SV21T1020178.DomainModels.dll
+D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\SV21T1020178.DomainModels.pdb
+D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\ref\SV21T1020178.DomainModels.dll
