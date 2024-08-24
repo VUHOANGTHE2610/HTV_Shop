@@ -49,4 +49,9 @@ namespace SV21T1020178.Web.Models
         public decimal MaxPrice { get; set; } = 0;
         public required List<Product> Data { get; set; }
     }
+    public class CategorySearchResult : PaginationSearchResult
+    {
+        public List<Category> Data { get; set; }
+
+    }
 }

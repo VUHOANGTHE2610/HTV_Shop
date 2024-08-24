@@ -11,6 +11,13 @@ builder.Services.AddControllersWithViews()
         {
             option.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true;
         });
+builder.Services.AddSession(option =>
+{
+    option.IdleTimeout = TimeSpan.FromMinutes(60);
+    option.Cookie.HttpOnly = true;
+    option.Cookie.IsEssential = true;
+});
+
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(option =>
                 {
@@ -19,13 +26,6 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
                     option.AccessDeniedPath = "/Account/AccessDenined";
                     option.ExpireTimeSpan = TimeSpan.FromDays(360);
                 });
-builder.Services.AddSession(option =>
-{
-    option.IdleTimeout = TimeSpan.FromMinutes(60);
-    option.Cookie.HttpOnly = true;
-    option.Cookie.IsEssential = true;
-});
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -34,10 +34,12 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
 }
 app.UseStaticFiles();
+app.UseAuthentication();
+app.UseSession();
+
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

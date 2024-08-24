@@ -1,31 +1,46 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SV21T1020178.BusinessLayers;
 using SV21T1020178.DomainModels;
+using SV21T1020178.Web.AppCodes;
+using SV21T1020178.Web.Models;
 
 namespace SV21T1020178.Web.Controllers
 {
+    [Authorize]
     public class CategoryController : Controller
     {
         const int PAGE_SIZE = 5;
+        private const string SEARCH_CONDITION = "categort_Search";
         public IActionResult Index(int page = 1, string searchValue = "")
         {
-            int rowCount = 0;
-            var data = CommonDataService.ListOfCategories(out rowCount, page, PAGE_SIZE, searchValue ?? "");
-
-            int pageCount = 1;
-            pageCount = rowCount / PAGE_SIZE;
-
-            if (rowCount % PAGE_SIZE > 0)
+            PaginationSearchInput? input = ApplicationContext.GetSessionData<PaginationSearchInput>(SEARCH_CONDITION);
+            if (input == null)
             {
-                pageCount += 1;
+                input = new PaginationSearchInput()
+                {
+                    Page = 1,
+                    PageSize = PAGE_SIZE,
+                    SearchValue = ""
+                };
             }
+            return View(input);
+        }
 
-            ViewBag.Page = page;
-            ViewBag.PageCount = pageCount;
-            ViewBag.RowCount = rowCount;
-            ViewBag.SearchValue = searchValue;
-
-            return View(data);
+        public IActionResult Search(PaginationSearchInput input)
+        {
+            int rowCount = 0;
+            var data = CommonDataService.ListOfCategories(out rowCount, input.Page, input.PageSize, input.SearchValue ?? "");
+            var model = new CategorySearchResult()
+            {
+                Page = input.Page,
+                PageSize = input.PageSize,
+                SearchValue = input.SearchValue ?? "",
+                RowCount = rowCount,
+                Data = data
+            };
+            ApplicationContext.SetSessionData(SEARCH_CONDITION, input);
+            return View(model);
         }
 
         public IActionResult Create()
@@ -55,6 +70,19 @@ namespace SV21T1020178.Web.Controllers
 
         public IActionResult Save(Category? data)
         {
+            ViewBag.Title = data.CategoryID == 0 ? "Bổ sung loại hàng" : "Cập nhật thông tin loại hàng";
+
+            if (string.IsNullOrWhiteSpace(data.CategoryName))
+            {
+                ModelState.AddModelError(nameof(data.CategoryName), "Tên nhà cung cấp không được để trống");
+            }
+            data.Description = data.Description ?? "";
+
+            if (!ModelState.IsValid)
+            {
+                return View("Edit", data);
+            }
+
             if (data.CategoryID == 0)
             {
                 CommonDataService.AddCategory(data);

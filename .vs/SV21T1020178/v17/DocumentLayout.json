@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "D:\\Sales Management\\SV21T1020178\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD490563-01E7-4416-934D-A361D895FFC2}|SV21T1020178.DomainModels\\SV21T1020178.DomainModels.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.domainmodels\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD490563-01E7-4416-934D-A361D895FFC2}|SV21T1020178.DomainModels\\SV21T1020178.DomainModels.csproj|solutionrelative:sv21t1020178.domainmodels\\useraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\category\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\category\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\order\\editdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\order\\editdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,36 +55,32 @@
       "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB408A7B-00D0-4A37-903A-A4A92EA7DB5F}|SV21T1020178.BusinessLayers\\SV21T1020178.BusinessLayers.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.businesslayers\\useraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB408A7B-00D0-4A37-903A-A4A92EA7DB5F}|SV21T1020178.BusinessLayers\\SV21T1020178.BusinessLayers.csproj|solutionrelative:sv21t1020178.businesslayers\\useraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\product\\attribute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\product\\attribute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3BDE9E9-D766-49ED-B40C-D941CA6F6101}|SV21T1020178.DataLayers\\SV21T1020178.DataLayers.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.datalayers\\sqlserver\\employeeaccountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3BDE9E9-D766-49ED-B40C-D941CA6F6101}|SV21T1020178.DataLayers\\SV21T1020178.DataLayers.csproj|solutionrelative:sv21t1020178.datalayers\\sqlserver\\employeeaccountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3BDE9E9-D766-49ED-B40C-D941CA6F6101}|SV21T1020178.DataLayers\\SV21T1020178.DataLayers.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.datalayers\\iuseraccountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3BDE9E9-D766-49ED-B40C-D941CA6F6101}|SV21T1020178.DataLayers\\SV21T1020178.DataLayers.csproj|solutionrelative:sv21t1020178.datalayers\\iuseraccountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\appcodes\\websecuritymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\appcodes\\websecuritymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD490563-01E7-4416-934D-A361D895FFC2}|SV21T1020178.DomainModels\\SV21T1020178.DomainModels.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.domainmodels\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD490563-01E7-4416-934D-A361D895FFC2}|SV21T1020178.DomainModels\\SV21T1020178.DomainModels.csproj|solutionrelative:sv21t1020178.domainmodels\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|d:\\sales management\\sv21t1020178\\sv21t1020178.web\\views\\product\\photo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC7A6BCE-3D4D-4651-854F-7071F3961268}|SV21T1020178.Web\\SV21T1020178.Web.csproj|solutionrelative:sv21t1020178.web\\views\\product\\photo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,150 +90,253 @@
       "DocumentGroups": [
         {
           "DockedWidth": 311,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "SV21T1020178.Web\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "SV21T1020178.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T02:24:15.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Header.cshtml",
-              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Shared\\_Header.cshtml",
-              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Shared\\_Header.cshtml",
-              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Shared\\_Header.cshtml",
-              "RelativeToolTip": "SV21T1020178.Web\\Views\\Shared\\_Header.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "SV21T1020178.Web\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-24T02:19:59.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Account\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Account\\ChangePassword.cshtml",
-              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Account\\ChangePassword.cshtml",
-              "RelativeToolTip": "SV21T1020178.Web\\Views\\Account\\ChangePassword.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-24T02:19:46.052Z",
+              "WhenOpened": "2024-08-24T03:27:24.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "SV21T1020178.Web\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "SV21T1020178.Web\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAACQAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T02:18:16.87Z",
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Category\\Search.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Category\\Search.cshtml",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Category\\Search.cshtml",
+              "RelativeToolTip": "SV21T1020178.Web\\Views\\Category\\Search.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T03:24:28.113Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserAccountService.cs",
-              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.BusinessLayers\\UserAccountService.cs",
-              "RelativeDocumentMoniker": "SV21T1020178.BusinessLayers\\UserAccountService.cs",
-              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.BusinessLayers\\UserAccountService.cs",
-              "RelativeToolTip": "SV21T1020178.BusinessLayers\\UserAccountService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T02:17:48.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmployeeAccountDAL.cs",
-              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.DataLayers\\SQLServer\\EmployeeAccountDAL.cs",
-              "RelativeDocumentMoniker": "SV21T1020178.DataLayers\\SQLServer\\EmployeeAccountDAL.cs",
-              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.DataLayers\\SQLServer\\EmployeeAccountDAL.cs",
-              "RelativeToolTip": "SV21T1020178.DataLayers\\SQLServer\\EmployeeAccountDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T02:17:32.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserAccount.cs",
-              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.DomainModels\\UserAccount.cs",
-              "RelativeDocumentMoniker": "SV21T1020178.DomainModels\\UserAccount.cs",
-              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.DomainModels\\UserAccount.cs",
-              "RelativeToolTip": "SV21T1020178.DomainModels\\UserAccount.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAA1wB4AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T02:14:49.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserAccountDAL.cs",
-              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.DataLayers\\IUserAccountDAL.cs",
-              "RelativeDocumentMoniker": "SV21T1020178.DataLayers\\IUserAccountDAL.cs",
-              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.DataLayers\\IUserAccountDAL.cs",
-              "RelativeToolTip": "SV21T1020178.DataLayers\\IUserAccountDAL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T02:17:15.012Z",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "SV21T1020178.Web\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T03:22:01.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Category\\Delete.cshtml",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "SV21T1020178.Web\\Views\\Category\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T03:11:40.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "SV21T1020178.Web\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAAB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T03:11:16.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Order\\Details.cshtml",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "SV21T1020178.Web\\Views\\Order\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T03:02:22.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditDetail.cshtml",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Order\\EditDetail.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Order\\EditDetail.cshtml",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Order\\EditDetail.cshtml",
+              "RelativeToolTip": "SV21T1020178.Web\\Views\\Order\\EditDetail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T03:02:05.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "SV21T1020178.Web\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAAwJUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T03:01:16.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Account\\Login.cshtml",
               "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "SV21T1020178.Web\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABQAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-24T02:16:41.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T02:56:27.516Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "WebSecurityModels.cs",
-              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\AppCodes\\WebSecurityModels.cs",
-              "RelativeDocumentMoniker": "SV21T1020178.Web\\AppCodes\\WebSecurityModels.cs",
-              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\AppCodes\\WebSecurityModels.cs",
-              "RelativeToolTip": "SV21T1020178.Web\\AppCodes\\WebSecurityModels.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Program.cs",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Program.cs",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Program.cs",
+              "RelativeToolTip": "SV21T1020178.Web\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T02:17:02.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T02:52:08.763Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Supplier.cs",
-              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.DomainModels\\Supplier.cs",
-              "RelativeDocumentMoniker": "SV21T1020178.DomainModels\\Supplier.cs",
-              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.DomainModels\\Supplier.cs",
-              "RelativeToolTip": "SV21T1020178.DomainModels\\Supplier.cs",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SV21T1020178.Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T02:51:54.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SV21T1020178.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T02:50:57.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SV21T1020178.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T02:50:14.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "SV21T1020178.Web\\Controllers\\EmployeeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T02:15:24.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T02:46:10.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Order\\Create.cshtml",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "SV21T1020178.Web\\Views\\Order\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T02:43:32.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Attribute.cshtml",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Product\\Attribute.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Product\\Attribute.cshtml",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Product\\Attribute.cshtml",
+              "RelativeToolTip": "SV21T1020178.Web\\Views\\Product\\Attribute.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T02:37:18.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "SV21T1020178.Web\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T02:37:13.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "SV21T1020178.Web\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T02:36:46.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Photo.cshtml",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Product\\Photo.cshtml",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Views\\Product\\Photo.cshtml",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Views\\Product\\Photo.cshtml",
+              "RelativeToolTip": "SV21T1020178.Web\\Views\\Product\\Photo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T02:36:14.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SV21T1020178.Web\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SV21T1020178.Web\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T02:35:19.659Z"
             }
           ]
         }

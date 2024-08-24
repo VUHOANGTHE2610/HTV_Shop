@@ -150,7 +150,7 @@ namespace SV21T1020178.Web.Controllers
             bool result = OrderDataService.DeleteOrder(id);
             if (!result)
             {
-                TempData["Message"] = "không thể duyệt đơn hàng này";
+                TempData["Message"] = "không thể xoa don hang nay";
                 return RedirectToAction("Details", new { id });
             }
             return RedirectToAction("Index");
