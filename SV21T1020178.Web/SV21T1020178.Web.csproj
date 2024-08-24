@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\assets\img\employees\" />
     <Folder Include="wwwroot\Themes\" />
   </ItemGroup>
 

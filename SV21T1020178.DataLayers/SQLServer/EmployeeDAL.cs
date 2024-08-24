@@ -14,6 +14,7 @@ namespace SV21T1020178.DataLayers.SQLServer
         public EmployeeDAL(string connectionString) : base(connectionString)
         {
         }
+
         public int Add(Employee data)
         {
             int id = 0;
@@ -107,7 +108,7 @@ namespace SV21T1020178.DataLayers.SQLServer
             return result;
         }
 
-        public IList<Employee> List(int page = 1, int pageSize = 0, string searchValue = "")
+        public List<Employee> List(int page = 1, int pageSize = 0, string searchValue = "")
         {
             List<Employee> data = new List<Employee>();
             using (var connection = OpenConnection())
@@ -166,11 +167,6 @@ namespace SV21T1020178.DataLayers.SQLServer
                 connection.Close();
             }
             return result;
-        }
-
-        List<Employee> ICommonDAL<Employee>.List(int page, int pageSize, string searchValue)
-        {
-            throw new NotImplementedException();
         }
     }
 }

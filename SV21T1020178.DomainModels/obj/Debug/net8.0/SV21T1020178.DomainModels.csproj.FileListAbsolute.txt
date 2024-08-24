@@ -9,3 +9,4 @@ D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\SV21
 D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\refint\SV21T1020178.DomainModels.dll
 D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\SV21T1020178.DomainModels.pdb
 D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\ref\SV21T1020178.DomainModels.dll
+D:\Sales Management\SV21T1020178\SV21T1020178.DomainModels\obj\Debug\net8.0\SV21T1020178.DomainModels.sourcelink.json

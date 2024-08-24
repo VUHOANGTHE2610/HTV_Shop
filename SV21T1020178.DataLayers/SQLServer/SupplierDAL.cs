@@ -20,7 +20,7 @@ namespace SV21T1020178.DataLayers.SQLServer
             int id = 0;
             using (var connection = OpenConnection())
             {
-                var sql = @"INSERT INTO Suppliers(SupplierName, ContactName, Province, Address, Phone, Email)
+                var sql = @"INSERT INTO Suppliers(SupplierName, ContactName, Provice, Address, Phone, Email)
                             VALUES(@SupplierName, @ContactName, @Province, @Address, @Phone, @Email);
                             SELECT @@IDENTITY
                            ";

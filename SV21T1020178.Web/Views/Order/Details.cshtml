@@ -1,4 +1,8 @@
-﻿@{
+﻿@model OrderDetailModel
+@{
+    decimal tong = 0;
+    var i = 0;
+    decimal sum = 0;
     ViewBag.Title = "Quản lý đơn hàng";
 }
 
@@ -10,15 +14,15 @@
                     Xử lý đơn hàng <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="~/Order/Accept/111" onclick="return confirm('Xác nhận duyệt chấp nhận đơn hàng này?')">Duyệt đơn hàng</a></li>
-                    <li><a href="~/Order/Shipping/111" class="btn-modal">Chuyển giao hàng</a></li>
-                    <li><a href="~/Order/Finish/111" onclick="return confirm('Xác nhận đơn hàng đã hoàn tất thành công?')">Xác nhận hoàn tất đơn hàng</a></li>
+                    <li><a href="~/Order/Accept/@Model.Order.OrderID" onclick="return confirm('Xác nhận duyệt chấp nhận đơn hàng này?')">Duyệt đơn hàng</a></li>
+                    <li><a href="~/Order/Shipping/@Model.Order.OrderID?shipperID=@Model.Order.ShipperID" class="btn-modal">Chuyển giao hàng</a></li>
+                    <li><a href="~/Order/Finish/@Model.Order.OrderID" onclick="return confirm('Xác nhận đơn hàng đã hoàn tất thành công?')">Xác nhận hoàn tất đơn hàng</a></li>
                     <li class="divider"></li>
-                    <li><a href="~/Order/Cancel/111" onclick="return confirm('Xác nhận hủy đơn hàng này?')">Hủy đơn hàng</a></li>
-                    <li><a href="~/Order/Reject/111" onclick="return confirm('Xác nhận từ chối đơn hàng này?')">Từ chối đơn hàng</a></li>
+                    <li><a href="~/Order/Cancel/@Model.Order.OrderID" onclick="return confirm('Xác nhận hủy đơn hàng này?')">Hủy đơn hàng</a></li>
+                    <li><a href="~/Order/Reject/@Model.Order.OrderID" onclick="return confirm('Xác nhận từ chối đơn hàng này?')">Từ chối đơn hàng</a></li>
                 </ul>
             </div>
-            <a href="~/Order/Delete/123" class="btn btn-sm btn-danger" onclick="return confirm('Có chắc chắn muốn xóa đơn hàng này không?')"><i class="fa fa-trash"></i> Xóa đơn hàng</a>
+            <a href="~/Order/Delete/@Model.Order.OrderID" class="btn btn-sm btn-danger" onclick="return confirm('Có chắc chắn muốn xóa đơn hàng này không?')"><i class="fa fa-trash"></i> Xóa đơn hàng</a>
             <a href="~/Order" class="btn btn-sm btn-info">Quay lại</a>
         </div>
     </div>
@@ -26,75 +30,75 @@
         <div class="form-group">
             <label class="control-label col-sm-2">Mã đơn hàng:</label>
             <div class="col-sm-4">
-                <p class="form-control">1001</p>
+                <input class="form-control" name="@nameof(Model.Order.OrderID)" value="@Model.Order.OrderID" readonly />
             </div>
             <label class="control-label col-sm-2">Ngày lập đơn hàng:</label>
             <div class="col-sm-4">
-                <p class="form-control">20/12/2022 15:00</p>
+                <input class="form-control" name="@nameof(Model.Order.OrderTime)" value="@Model.Order.OrderTime" readonly />
             </div>
             <label class="control-label col-sm-2">Nhân viên phụ trách:</label>
             <div class="col-sm-4">
-                <p class="form-control">Trần Nguyên Phong</p>
+                <input class="form-control" name="@nameof(Model.Order.EmployeeName)" value="@Model.Order.EmployeeName" readonly />
             </div>
             <label class="control-label col-sm-2">Ngày nhận đơn hàng:</label>
             <div class="col-sm-4">
-                <p class="form-control">20/1/2022 17:00</p>
+                <input class="form-control" name="@nameof(Model.Order.AcceptTime)" value="@Model.Order.AcceptTime" readonly />
             </div>
         </div>
 
         <div class="form-group">
             <label class="control-label col-sm-2">Khách hàng:</label>
             <div class="col-sm-4">
-                <p class="form-control">Trần Lê Thanh Hoàng</p>
+                <input class="form-control" name="@nameof(Model.Order.CustomerName)" value="@Model.Order.CustomerName" readonly/>
             </div>
             <label class="control-label col-sm-2">Tên giao dịch:</label>
             <div class="col-sm-4">
-                <p class="form-control">Ông Hoàng</p>
+               <input class="form-control" name="@nameof(Model.Order.CustomerName)" value="@Model.Order.CustomerName" readonly />
             </div>
             <label class="control-label col-sm-2">Địa chỉ:</label>
             <div class="col-sm-10">
-                <p class="form-control">77 Nguyễn Huệ, thành phố Huế</p>
+                <input class="form-control" name="@nameof(Model.Order.CustomerAddress)" value="@Model.Order.CustomerAddress" readonly />
             </div>
             <label class="control-label col-sm-2">Email:</label>
             <div class="col-sm-10">
-                <p class="form-control">hoang.lethanh@gmail.com</p>
+                <input class="form-control" name="@nameof(Model.Order.CustomerEmail)" value="@Model.Order.CustomerEmail" readonly />
             </div>
         </div>
 
         <div class="form-group">
             <label class="control-label col-sm-2">Địa chỉ giao hàng:</label>
             <div class="col-sm-10">
-                <p class="form-control">77 Nguyễn Huệ, thành phố Huế</p>
+                <input class="form-control" name="@nameof(Model.Order.DeliveryAddress)" value="@Model.Order.DeliveryAddress" readonly />
             </div>
             <label class="control-label col-sm-2">Tỉnh/thành:</label>
             <div class="col-sm-10">
-                <p class="form-control">Thừa Thiên Huế</p>
+                <input class="form-control" name="@nameof(Model.Order.DeliveryProvince)" value="@Model.Order.DeliveryProvince" readonly />
             </div>
         </div>
 
         <div class="form-group">
             <label class="control-label col-sm-2">Người giao hàng:</label>
             <div class="col-sm-4">
-                <p class="form-control">Vũ Hoàng Tuấn Minh</p>
+                <input class="form-control" name="@nameof(Model.Order.ShipperName)" value="@Model.Order.ShipperName" readonly />
             </div>
             <label class="control-label col-sm-2">Điện thoại:</label>
             <div class="col-sm-4">
-                <p class="form-control">0985666721</p>
+                 <input class="form-control" name="@nameof(Model.Order.ShipperPhone)" value="@Model.Order.ShipperPhone" readonly />
             </div>
             <label class="control-label col-sm-2">Nhận giao hàng lúc:</label>
             <div class="col-sm-4">
-                <p class="form-control">22/12/2022 11:30</p>
+                <input class="form-control" name="@nameof(Model.Order.ShippedTime)" value="@Model.Order.ShippedTime" readonly />
             </div>
         </div>
 
         <div class="form-group">
             <label class="control-label col-sm-2">Trạng thái đơn hàng:</label>
             <div class="col-sm-4">
-                <p class="form-control">Đã hoàn tất</p>
+                <input class="form-control" name="@nameof(Model.Order.StatusDescription)" value="@Model.Order.StatusDescription" readonly />
             </div>
             <label class="control-label col-sm-2">Thời điểm hoàn tất:</label>
             <div class="col-sm-4">
-                <p class="form-control">22/12/2022 17:00</p>
+                <input class="form-control" name="@nameof(Model.Order.FinishedTime)" value="@Model.Order.FinishedTime" readonly />
             </div>
         </div>
     </div>
@@ -115,32 +119,53 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @for (int i = 1; i <= 5; i++)
+                 {
+                    
+                    @foreach(var item in Model.Details)
                     {
-                        <tr>
-                            <td class="text-center">@i</td>
-                            <td>Samsung Series 9 NP900X4C Premium Ultrabook</td>
-                            <td class="text-center">Cái</td>
-                            <td class="text-center">2</td>
-                            <td class="text-right">18,700,000</td>
-                            <td class="text-right">37,400,000</td>
-                            <td class="text-right">
-                                <a href="~/Order/EditDetail/111?productId=222" class="btn btn-xs btn-primary btn-modal">
-                                    <i class="fa fa-edit"></i>
-                                </a>
-                                <a href="~/Order/DeleteDetail/111?productId=222" class="btn btn-xs btn-danger" onclick="return confirm('Xóa mặt hàng này khỏi đơn hàng?')">
-                                    <i class="fa fa-trash"></i>
-                                </a>
-                            </td>
-                        </tr>
+                        tong = 0;
+                        foreach(var jtem in ProductDataService.ListProducts())
+                        {
+                             
+                            if(@jtem.ProductID == @item.ProductID)
+                            {
+                                i += 1;
+                                tong = @item.Quantity * @item.SalePrice;
+                                <tr>
+                                    <td class="text-center">@i</td>
+                                    <td>@jtem.ProductName</td>
+                                    <td class="text-center">@jtem.Unit</td>
+                                    <td class="text-center">@item.Quantity</td>
+                                    <td class="text-right">@item.SalePrice</td>
+                                    <td class="text-right">@tong</td>
+                                    <td class="text-right">
+                                        <a href="~/Order/EditDetail/@item.OrderID?productId=@item.ProductID" class="btn btn-xs btn-primary btn-modal">
+                                            <i class="fa fa-edit"></i>
+                                        </a>
+                                        <a href="~/Order/DeleteDetail/@item?productId=@item.ProductID" class="btn btn-xs btn-danger" onclick="return confirm('Xóa mặt hàng này khỏi đơn hàng?')">
+                                            <i class="fa fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+
+                        }
                     }
+                       
+                }
                 </tbody>
                 <tfoot>
+                    @foreach (var s in Model.Details)
+                    {
+                        sum += s.Quantity * s.SalePrice;
+                       
+                    }
                     <tr>
                         <th colspan="5" class="text-right">Tổng cộng:</th>
-                        <th class="text-right">187,000,000</th>
+                        <th class="text-right">@sum</th>
                         <th></th>
                     </tr>
+                    
                 </tfoot>
             </table>
         </div>

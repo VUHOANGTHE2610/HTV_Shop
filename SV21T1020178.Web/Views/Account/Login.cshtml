@@ -1,6 +1,7 @@
 ﻿@{
     Layout = null;
 }
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,12 +28,12 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Google Font -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    @* <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic"> *@
 </head>
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a><b>HTV</b> Shop</a>
+            <a><b>TNP</b> Shop</a>
         </div>
         <!-- /.login-logo -->
         <div class="login-box-body">
@@ -50,12 +51,11 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-8">
-                    </div>
-                    <!-- /.col -->
+                        @Html.ValidationMessage("Error", new { @style="color:#f00" })
+                    </div>                    
                     <div class="col-xs-4">
                         <button type="submit" class="btn btn-primary btn-block btn-flat">Đăng nhập</button>
-                    </div>
-                    <!-- /.col -->
+                    </div>                    
                 </div>
             </form>
         </div>
@@ -66,5 +66,18 @@
     <script src="~/themes/bower_components/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap 3.3.7 -->
     <script src="~/themes/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- iCheck -->
+    <script src="~/themes/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(function () {
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_square-blue',
+                radioClass: 'iradio_square-blue',
+                increaseArea: '20%' /* optional */
+            });
+        });
+    </script>
 </body>
 </html>
+
+

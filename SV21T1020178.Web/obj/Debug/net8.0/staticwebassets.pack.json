@@ -1005,16 +1005,44 @@
       "PackagePath": "staticwebassets\\Themes\\starter.html"
     },
     {
-      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\img\\employees\\macbook.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\employees\\macbook.jpg"
+      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\images\\employees\\638599623845960564_photo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\employees\\638599623845960564_photo.png"
     },
     {
-      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\img\\photo.png",
-      "PackagePath": "staticwebassets\\assets\\img\\photo.png"
+      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\images\\employees\\638599624123707291_photo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\employees\\638599624123707291_photo.png"
     },
     {
-      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\img\\product.png",
-      "PackagePath": "staticwebassets\\assets\\img\\product.png"
+      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\images\\employees\\638599624266920585_638599624123707291_photo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\employees\\638599624266920585_638599624123707291_photo.png"
+    },
+    {
+      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\images\\employees\\638599624494360454_photo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\employees\\638599624494360454_photo.png"
+    },
+    {
+      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\images\\employees\\638600859615948262_SU XINH Dep.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\employees\\638600859615948262_SU XINH Dep.jpg"
+    },
+    {
+      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\images\\employees\\638600859983254443_SU XINH Dep.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\employees\\638600859983254443_SU XINH Dep.jpg"
+    },
+    {
+      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\images\\employees\\638600860130575329_SU XINH Dep.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\employees\\638600860130575329_SU XINH Dep.jpg"
+    },
+    {
+      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\images\\employees\\macbook.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\employees\\macbook.jpg"
+    },
+    {
+      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\images\\employees\\photo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\employees\\photo.png"
+    },
+    {
+      "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\assets\\images\\product.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product.png"
     },
     {
       "Id": "D:\\Sales Management\\SV21T1020178\\SV21T1020178.Web\\wwwroot\\css\\site.css",
